@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>最終課題-5</title>
+  <link rel="stylesheet" href="./CSS/style1.css">
+  <script src="./JS/script1.js" defer></script>
+</head>
+<body>
+  <section class="header">
+    <a class="jamp-main" href="./index.html">
+      <h1 class="header-title">KKNプロ野球データ置き場</h1>
+    </a>
+  </section>
+
+  <section class="hero">
+    <h1 class="page1-title">個人投手成績</h1>
+    <table id="sort-hyou">
+      <thead>
+        <tr>
+          <th>球団</th>
+          <th id="th" data-sort="number">背番号</th>
+          <th>名前</th>
+          <th id="th" data-sort="number">投球回</th>
+          <th id="th" data-sort="number">防御率</th>
+          <th id="th" data-sort="number">勝ち</th>
+          <th id="th" data-sort="number">負け</th>
+          <th id="th" data-sort="number">失点</th>
+          <th id="th" data-sort="number">奪三振</th>
+          <th id="th" data-sort="number">ホールド</th>
+          <th id="th" data-sort="number">セーブ</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>OW</td>
+          <td>8</td>
+          <td>清水 圭人</td>
+          <td>95</td>
+          <td>0.98</td>
+          <td>8</td>
+          <td>1</td>
+          <td>5</td>
+          <td>74</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>OW</td>
+          <td>10</td>
+          <td>馬場 典孝</td>
+          <td>82.2</td>
+          <td>2.25</td>
+          <td>5</td>
+          <td>6</td>
+          <td>14</td>
+          <td>32</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>OW</td>
+          <td>12</td>
+          <td>嶺井 太一</td>
+          <td>22.1</td>
+          <td>2.50</td>
+          <td>1</td>
+          <td>2</td>
+          <td>10</td>
+          <td>16</td>
+          <td>13</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>OW</td>
+          <td>18</td>
+          <td>S.ウォーカー</td>
+          <td>12.1</td>
+          <td>1.05</td>
+          <td>0</td>
+          <td>1</td>
+          <td>7</td>
+          <td>10</td>
+          <td>1</td>
+          <td>4</td>
+        </tr>
+        <tr>
+        <td>EG</td>
+          <td>1</td>
+          <td>山崎　颯</td>
+          <td>80.2</td>
+          <td>1.50</td>
+          <td>6</td>
+          <td>3</td>
+          <td>32</td>
+          <td>90</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+        <td>EG</td>
+          <td>7</td>
+          <td>兎田　仁</td>
+          <td>32</td>
+          <td>2.88</td>
+          <td>3</td>
+          <td>6</td>
+          <td>40</td>
+          <td>34</td>
+          <td>2</td>
+          <td>0</td>
+        </tr>
+        <tr>
+        <td>EG</td>
+          <td>12</td>
+          <td>N.レガシー</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+        <td>EG</td>
+          <td>15</td>
+          <td>木谷　春馬</td>
+          <td>1.2</td>
+          <td>8.55</td>
+          <td>0</td>
+          <td>2</td>
+          <td>4</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+        <td>EG</td>
+          <td>20</td>
+          <td>R.アキータ</td>
+          <td>17</td>
+          <td>1.50</td>
+          <td>0</td>
+          <td>3</td>
+          <td>8</td>
+          <td>15</td>
+          <td>0</td>
+          <td>11</td>
+        </tr>
+        <tr>
+        <td>DF</td>
+        <td>7</td>
+        <td>峯　真司</td>
+        <td>98</td>
+        <td>1.05</td>
+        <td>5</td>
+        <td>6</td>
+        <td>25</td>
+        <td>102</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>DF</td>
+        <td>9</td>
+        <td>七瀬　誠也</td>
+        <td>29</td>
+        <td>0.50</td>
+        <td>1</td>
+        <td>0</td>
+        <td>10</td>
+        <td>31</td>
+        <td>1</td>
+        <td>18</td>
+      </tr>
+      <tr>
+        <td>DF</td>
+        <td>11</td>
+        <td>市川　和也</td>
+        <td>79.2</td>
+        <td>2.03</td>
+        <td>4</td>
+        <td>5</td>
+        <td>50</td>
+        <td>44</td>
+        <td>1</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>DF</td>
+        <td>18</td>
+        <td>保科　優</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>WH</td>
+        <td>00</td>
+        <td> 高橋　雷亜</td>
+        <td>85</td>
+        <td>2.55</td>
+        <td>8</td>
+        <td>2</td>
+        <td>29</td>
+        <td>52</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>WH</td>
+        <td>0</td>
+        <td>W.サイバー</td>
+        <td>30</td>
+        <td>2.00</td>
+        <td>1</td>
+        <td>3</td>
+        <td>17</td>
+        <td>14</td>
+        <td>20</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>WH</td>
+        <td>15</td>
+        <td>大松　典人</td>
+        <td>26</td>
+        <td>1.23</td>
+        <td>0</td>
+        <td>2</td>
+        <td>9</td>
+        <td>13</td>
+        <td>2</td>
+        <td>15</td>
+      </tr>
+      </tbody>
+    </table>
+  </section>
+<section class="footer">
+    <p class="footer-text">この​webページは​架空の​ものであり実在の​人物、​団体などとは​一切関係​ありません</p>
+  </section>
+</body>
+</html>

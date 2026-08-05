@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>最終課題-6</title>
+  <link rel="stylesheet" href="./CSS/style2.css">
+  <script src="./JS/script2.js" defer></script>
+</head>
+<body>
+    <section class="header">
+    <a class="jamp-main" href="./index.html">
+    <h1 class="header-title">KKNプロ野球データ置き場</h1>
+    </a>
+  </section>
+  <section class="hero">
+<form class="form-box" action="https://api.staticforms.xyz/submit"method="POST">
+<input type="hidden" name="accessKey" value="932c33b3-3fff-4d36-9553-055822ed8907">
+    <input type="hidden" name="redirectTo" value="https://www.sus.ac.jp/">
+    <div class="form-item">
+        <label for="user-name">お名前</label>
+        <input type="text" id="user-name" name="name" placeholder="例) 田中 太郎" required>
+    </div>
+    <div class="form-item">
+        <label for="user-email">メールアドレス</label>
+        <input type="email" id="user-email" name="email" placeholder="例) example@example.com" required>
+    </div>
+    <div class="form-item">
+        <label for="user-message">お問い合わせ内容</label>
+        <textarea id="user-message" rows="7" name="message" placeholder="ご意見・お問い合わせ内容をご入力ください" required></textarea>
+    </div>
+    <div class="form-item">
+        <button type="submit">送信する</button>
+    </div>
+</form>
+  </section>
+  <section class="footer">
+    <p class="footer-text">この​webページは​架空の​ものであり実在の​人物、​団体などとは​一切関係​ありません</p>
+  </section>
+</body>
+</html>

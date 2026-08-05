@@ -1,0 +1,74 @@
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 70px;
+  background-color: rgb(86, 166, 216);
+  color: white;
+}
+.jamp-main{
+  text-decoration: none;
+  color: inherit;
+}
+.form-box {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.form-item {
+  margin-bottom: 24px;
+.form-item label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+}
+.form-item input[type="text"],
+.form-item input[type="email"],
+.form-item textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.form-item button {
+  display: inline-block;
+  color: #fff;
+  background-color: rgb(179, 117, 91);
+  padding: 1em 2em;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.2s;
+  &:hover {
+    background-color: orange;
+  }
+}
+.number {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+  
+  img {
+    width: 1em;
+  }
+}
+.hour {
+  font-size: 13px;
+  display: block;
+  margin-top: 1em;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 50px;
+  background-color: rgb(16, 117, 16);
+  color: white;
+}
